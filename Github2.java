@@ -14,10 +14,11 @@ public class Github2 {
     //Clicking on Sign in
         driver.findElement(By.linkText("Sign in")).click();
    //Click on username
-        driver.findElement(By.name("login")).sendKeys("gmail");
+        System.out.print("Enter the UserName : ");
+        driver.findElement(By.name("login")).sendKeys(s1.nextLine());
    //Click on password
-        //System.out.print("Enter the Password : ");
-        driver.findElement(By.name("password")).sendKeys("paswwd");
+        System.out.print("Enter the Password : ");
+        driver.findElement(By.name("password")).sendKeys(s1.nextLine());
     //Click on Login
         driver.findElement(By.name("commit")).click();
 
