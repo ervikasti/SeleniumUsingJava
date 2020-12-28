@@ -10,6 +10,8 @@ public class Github2 {
         Scanner s1 = new Scanner(System.in);
     System.setProperty("webdriver.chrome.driver","C:\\Users\\draka\\Downloads\\chromedriver_win32\\chromedriver.exe");
     WebDriver driver = new ChromeDriver();
+    driver.manage().window().maximize();
+
     driver.navigate().to("https://github.com/");
     //Clicking on Sign in
         driver.findElement(By.linkText("Sign in")).click();
