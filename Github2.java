@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Github2 {
     public static void main(String[] args) {
         Scanner s1 = new Scanner(System.in);
-    System.setProperty("webdriver.chrome.driver","C:\\Users\\draka\\Downloads\\chromedriver_win32\\chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver","write complete path of chrome driver including .exe ex. C:\\Users\\draka\\Downloads\\chromedriver_win32\\chromedriver.exe");
     WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
 
